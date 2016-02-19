@@ -14,6 +14,17 @@ var AuthorActions = {
           actionType: ActionTypes.CREATE_AUTHOR,
           author: newAuthor
       });
+    },
+
+    updateAuthor: function(author){
+      //web API goes here
+      var updatedAuthor = AuthorApi.saveAuthor(author);
+
+      //dispatchers informs stores that an author was created
+      Dispatcher.dispatch({
+        actionType: ActionTypes.UPDATE_AUTHOR,
+        author: updatedAuthor
+      });
     }
 };
 
