@@ -48309,8 +48309,8 @@ var Home = React.createClass({displayName: "Home",
   render: function(){
     return (
       React.createElement("div", {className: "jumbotron"}, 
-        React.createElement("h1", null, " Pluralsight Administration "), 
-        React.createElement("p", null, " React, React Router, and Flux"), 
+        React.createElement("h1", null, "Demo Homepage"), 
+        React.createElement("p", null, "React, React Router, and Flux"), 
         React.createElement(Link, {to: "about", className: "btn btn-primary btn-large"}, "Learn More")
       )
     );
