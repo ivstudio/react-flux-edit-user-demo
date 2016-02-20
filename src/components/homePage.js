@@ -8,8 +8,8 @@ var Home = React.createClass({
   render: function(){
     return (
       <div className="jumbotron">
-        <h1> Pluralsight Administration </h1>
-        <p> React, React Router, and Flux</p>
+        <h1>SPA React Demo</h1>
+        <p>React, React Router, and Flux</p>
         <Link to ="about" className="btn btn-primary btn-large">Learn More</Link>
       </div>
     );
