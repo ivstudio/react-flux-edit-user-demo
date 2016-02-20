@@ -9,4 +9,4 @@ React and Flux demo
 ## Developing
 
 * `npm install` to resolve dependencies
-* `Gulp` to start server and watcher. This command will read files under `client/src` and generate a single file under `client/dist`.
+* `Gulp` to start server and watcher. This command will read files under `./src` and generate a single file under `./dist`.
